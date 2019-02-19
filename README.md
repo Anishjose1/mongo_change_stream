@@ -10,6 +10,7 @@ execute below command
 
 
 mongod --port 27017 --dbpath c:\replica\rs0-0 --replSet rs0 --smallfiles --oplogSize 128
+
 mongod --port 27018 --dbpath c:\replica\rs0-1 --replSet rs0 --smallfiles --oplogSize 128
 
 Once both instance are running, use below command to add/set replica
